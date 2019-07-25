@@ -2858,6 +2858,18 @@ class BaseBuilder
 
 		return $this;
 	}
+	
+	//--------------------------------------------------------------------
+
+	/**
+	 * Get current selected fields.
+	 *
+	 * @return array
+	 */
+	public function getCurrentSelect()
+	{
+		return $this->QBSelect;
+	}
 
 	//--------------------------------------------------------------------
 
